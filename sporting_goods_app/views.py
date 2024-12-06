@@ -21,3 +21,4 @@ def product_detail(request, product_id):
     else:
         return JsonResponse({"error": "Product not found"}, status=404)
 
+#d
